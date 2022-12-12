@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    height: 100%;
+}
+body{
+    /* background: rgba(29,39,49,1); */
+    background-image: linear-gradient(180deg, rgba(29,39,49,1) 80%, rgba(50,140,193,1) 120%);
+    /* background: radial-gradient(rgba(29,39,49,1) 60%, rgba(50,140,193,1) 100%);  */
+}
+/* font-family: 'BiolilbertRegular';
+font-weight: normal;
+font-style: normal;  */
+
+h1{
+    font-family: 'BiolilbertRegular';
+    font-weight: 500;
+    font-size: 18px;
+}
+p{
+    font-family: 'BiolilbertRegular';
+    font-weight: 200;
+    font-size: 12px;
+}
