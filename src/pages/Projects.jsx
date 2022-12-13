@@ -1,8 +1,8 @@
-import React from 'react'
+// import React from 'react'
 
 const Projects = () => {
   return (
-    <div className="container">
+    <div className="container container-05">
         <div class="box box-1">
             <h1>Imitation Landing Page Deezer</h1>
             <p>This site is a imitation of Landing Page of service streaming music Deezer</p>

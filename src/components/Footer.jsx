@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import githubIcon from "../assets/img/icon-github.png"
 import instagramIcon from "../assets/img/icon-instagram.png"
 import twitterIcon from "../assets/img/icon-twitter.png"

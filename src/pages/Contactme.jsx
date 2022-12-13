@@ -2,12 +2,12 @@ import React from 'react'
 
 const Contactme = () => {
   return (
-    <section className="container">
+    <section className="container container-04">
         <input type="text" placeholder="name"></input>
         <input type="email" placeholder="email"></input>
         <input type="text" placeholder="subject"></input>
         <input type="text" placeholder="message"></input>
-        <div class="btn"><span>SEND</span></div>
+        <div className="btn btn-SEND"><span>SEND</span></div>
     </section>
   )
 }

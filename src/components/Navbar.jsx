@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import homeIcon from "../assets/img/home-icon.png"
 import aboutmeIcon from "../assets/img/aboutme-icon.png"
 import proyectsIcon from "../assets/img/proyect-icon.png"
@@ -11,33 +11,16 @@ const Navbar = () => {
     return (
         <div className="hdr-01">
             <div className="home">
-                <Link to="../pages/Home.jsx"><img src={homeIcon} width="80%" height="80%"></img>Home</Link>
+                <Link to="/"><img src={homeIcon} width="80%" height="80%"></img></Link>{" "}
             </div>
             <div className="menu">
-                <Link to="../pages/Aboutme.jsx"><img src={aboutmeIcon} width="90%" height="90%"></img>Aboutme</Link>
-                <Link to="../pages/Projects.jsx"><img src={proyectsIcon} width="90%" height="90%"></img>Projects</Link>
-                <Link to="../pages/Curriculum.jsx"><img src={cvIcon} width="90%" height="90%"></img>Curriculum</Link>
-                <Link to="../pages/Contactme.jsx"><img src={contacmeIcon} width="90%" height="90%"></img>Contactme</Link>
+                <Link to="/Aboutme"><img src={aboutmeIcon} width="90%" height="90%"></img></Link>{" "}
+                <Link to="/Projects"><img src={proyectsIcon} width="90%" height="90%"></img></Link>{" "}
+                <Link to="/Curriculum"><img src={cvIcon} width="90%" height="90%"></img></Link>{" "}
+                <Link to="/Contactme"><img src={contacmeIcon} width="90%" height="90%"></img></Link>{" "}
             </div>
         </div>
     )
 }
-
-
-// const Header = () => {
-//     return (
-//         <div className="hdr-01">
-//             <div className="home">
-//                 <div id="btn-home"><a><img src={homeIcon} width="80%" height="80%"></img></a></div>
-//             </div>
-//             <div className="menu">
-//                 <div id="btn-aboutme"><a><img src={aboutmeIcon} width="90%" height="90%"></img></a></div>
-//                 <div id="btn-proyects"><a><img src={proyectsIcon} width="90%" height="90%"></img></a></div>
-//                 <div id="btn-cv"><a><img src={cvIcon} width="90%" height="90%"></img></a></div>
-//                 <div id="btn-contactme"><a><img src={contacmeIcon} width="90%" height="90%"></img></a></div>
-//             </div>
-//         </div>
-//     )
-// }
 
 export default Navbar

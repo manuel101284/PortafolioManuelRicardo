@@ -4,15 +4,16 @@
     width: 100%;
     justify-content: space-between;
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     max-height: 35%;
 }
 
 button{
     max-width: 80px;
     max-height: 80px;
-    background-color: #0b3c5d;
+    /* background-color: #0b3c5d; */
     border-radius: 5px;
+    margin: 5px;
 }
 
 .home{
@@ -24,7 +25,7 @@ button{
     right: auto;
     margin: 0% auto auto 0%;
     flex-direction: row;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: #0b3c5d;
     max-height: 35%;
     max-width: 60px;
@@ -39,7 +40,7 @@ button{
     right: 0%;
     margin: 0% 0% auto auto;
     flex-direction: column;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     background-color: #0b3c5d;
     max-height: 35%;
     max-width: 60px;
