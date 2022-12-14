@@ -5,6 +5,7 @@ import "../src/assets/styles/Styleheader.css"
 import "../src/assets/styles/Stylefooter.css"
 import "../src/assets/styles/Stylecontainer.css"
 import "../src/assets/styles/Styleprojects.css"
+import "../src/assets/styles/Stylecontactme.css"
 
 import Navbar from "./components/Navbar.jsx"
 import Footer from "./components/Footer.jsx"
