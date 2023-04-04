@@ -301,14 +301,14 @@
     <h3 class="text-3xl text-slate-700 dark:text-white mt-12 mb-10 font-blod tracking-widest text-center">Contáctame</h3>
 
       <section class="flex flex-col w-[90% m-auto" id="Contact">
-        <form action="" class="w-[90%] md:max-w[600px] m-auto">
-          <div>
+        <form action="https://formsubmit.co/manuel101284@gmail.com" method="POST" class="w-[90%] md:max-w[600px] m-auto">
+          <div class="form_container">
             <input
               placeholder="correo@correo.com"
               type="email"
-              name=""
+              name="Correo"
               id="email"
-              class="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400">
+              class="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400 border-2 form_input">
           </div>
 
           <div class="py-3">
@@ -317,7 +317,7 @@
               type="text"
               name="Nombre"
               id="Nombre"
-              class="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400">
+              class="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400 border-2 form_input">
           </div>
 
           <div>
@@ -326,13 +326,15 @@
               name="msj"
               id="msj"
               rows="5"
-              class="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400">
+              class="p-3 w-full rounded-lg focus:outline-none focus:ring focus:ring-blue-400 border-2 form_input form_input_message">
             </textarea>
           </div>
 
           <div class="my-3">
             <button class="bg-sky-600 text-white p-3 w-full rounded-lg text-xl tracking-widest">Enviar mensaje</button>
           </div>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500"/>
+          <input type="hidden" name="_captcha" value="false"/>
         </form>
 
       <!-- FOOTER -->
