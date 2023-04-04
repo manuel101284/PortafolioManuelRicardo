@@ -22,7 +22,7 @@ El repositorio de dicho portafolio es:
 
 El despliegue en Git Hub Pages es: https://manuel101284.github.io/PortafolioManuelRicardo/
 
-El despliegue en Netlify es: https://portafoliomanuelricardo.netlify.app/
+El despliegue en Netlify es: https://portafolio-mrcc.netlify.app/
 
 
 ## Authors✒️
