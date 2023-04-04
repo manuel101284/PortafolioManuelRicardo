@@ -71,7 +71,7 @@
 
   <main>
     <!-- #1 SECTION HERO -->
-    <section class="my-0 flex flex-col lg:flex-row lg:h-[850px]" id="AbouteMe">
+    <section class="my-0 flex flex-col lg:flex-row lg:h-[850px]" id="AboutMe">
       <div class="p-10 lg:w-[80%] lg:h-[500px] lg:self-center">
         <h1 class="text-sky-600 dark:text-sky-300 text-2xl font-bold tracking-widest leading-10">
           Hola, soy
@@ -95,13 +95,15 @@
         </div>
 
           <div>
-            <button class="border-2 rounded border-sky-500 p-4 w-[250px] text-lg tracking-widest hover:bg-sky-500 hover:dark:text-slate-900 ease-out duration-300">Mi CV</button>
+            <a href="src/docs/CV-MRC-spa.pdf" target="_blank" rel="noopener noreferrer"><button class="border-2 rounded border-sky-500 p-4 w-[250px] text-lg tracking-widest hover:bg-sky-500 hover:dark:text-slate-900 ease-out duration-300">Mi CV</button></a>
           </div>
         </div>
 
         <!-- CONTAINER WITH AN IMAGE -->
         <div class="my-10 w-full">
-          <div class="w-[300px] h-[320px] m-auto bg-[url('./img/fotoportafolio.png')] lg:bg-[url('./img/fotoportafolio.png')] bg-cover rounded-lg lg:w-[100%] lg:h-[100%] lg:bg-center lg:bg-no-repeat lg:bg-[lenght:617px_480px]">
+          <!-- <div class="w-[300px] h-[300px] m-auto bg-cover rounded-lg lg:w-[100%] lg:h-[100%] lg:bg-center lg:bg-no-repeat"> -->
+          <div class="w-[300px] h-[300px] m-auto lg:bg-no-repeat"></div>
+            <img src="./src/img/photo01.png" class="rounded-full lg:bg-center m-auto"/>
           </div>
         </div>
 

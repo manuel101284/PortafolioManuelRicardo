@@ -9,7 +9,7 @@ menuButton.addEventListener('click', () => {
     menuItems.classList.toggle('hidden');
 
     menuButtonSpans.forEach((span) =>{
-        span.classList.toggle('animate');
+        span.classList.toggle('animado');
     }) 
 });
 
@@ -17,7 +17,7 @@ links.forEach((link) => {
     link.addEventListener('click', () => {
         menuItems.classList.add('hidden')
         menuButtonSpans.forEach((span) => {
-            span.classList.remove('animate')
+            span.classList.remove('animado')
         })
     })
 })
@@ -28,7 +28,7 @@ window.onresize = function () {
     if (w > 768) {
         menuItems.classList.add('hidden')
         menuButtonSpans.forEach((span) => {
-            span.classList.remove('animate')
+            span.classList.remove('animado')
         })
     }
 }
